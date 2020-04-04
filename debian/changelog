@@ -1,3 +1,9 @@
+cpumem-applet (0.0.4) unstable; urgency=low
+
+  * Initial Maemo Leste import
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 04 Apr 2020 12:41:42 +0200
+
 cpumem-applet (0.0.3) unstable; urgency=low
 
   * Version bump due maemo.org autobuilder mess
