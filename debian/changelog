@@ -1,0 +1,18 @@
+cpumem-applet (0.0.3) unstable; urgency=low
+
+  * Version bump due maemo.org autobuilder mess
+
+ -- Tuomo Tanskanen <tumi@tumi.fi>  Wed, 16 Dec 2009 21:27:15 +0200
+
+cpumem-applet (0.0.2) unstable; urgency=low
+
+  * Installation issues when load-applet was installed fixed
+
+ -- Tuomo Tanskanen <tumi@tumi.fi>  Wed, 16 Dec 2009 17:35:01 +0200
+
+cpumem-applet (0.0.1) unstable; urgency=low
+
+  * Initial import from load-applet 0.46-1
+  * Stripped all extras and left just cpu/mem status-area icon
+
+ -- Tuomo Tanskanen <tumi@tumi.fi>  Wed, 16 Dec 2009 12:43:16 +0200
