@@ -17,13 +17,13 @@ typedef struct _CpumemAppletStatusAreaItemClass   CpumemAppletStatusAreaItemClas
 typedef struct _CpumemAppletStatusAreaItemPrivate CpumemAppletStatusAreaItemPrivate;
 
 struct _CpumemAppletStatusAreaItem {
-	HDStatusPluginItem parent;
+  HDStatusPluginItem parent;
 
-	CpumemAppletStatusAreaItemPrivate *priv;
+  CpumemAppletStatusAreaItemPrivate *priv;
 };
 
 struct _CpumemAppletStatusAreaItemClass {
-	HDStatusPluginItemClass parent;
+  HDStatusPluginItemClass parent;
 };
 
 GType cpumem_applet_status_area_item_get_type (void);

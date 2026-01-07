@@ -27,6 +27,10 @@ PKG_CHECK_MODULES([CPUMEM_APPLET], [
 AC_SUBST(CPUMEM_APPLET)
 AC_SUBST(CPUMEM_APPLET_CFLAGS)
 
+PKG_CHECK_MODULES([OSSO], [libosso >= 2.3])
+AC_SUBST(OSSO)
+AC_SUBST(OSSO_CFLAGS)
+
 hildondesktoplibdir="${libdir}/hildon-desktop"
 AC_SUBST(hildondesktoplibdir)
 

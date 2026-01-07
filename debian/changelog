@@ -1,3 +1,13 @@
+cpumem-applet (0.0.5) unstable; urgency=low
+
+  * Link against libosso
+  * fixed CPU usage calculation to properly handle multi-core, plus normalization.
+  * more robust /proc/stat parsing
+  * added g_debug()s
+  * refactored code; 2 space indent (sorry)
+
+ -- Sander <sander@kroket.io>  Wed, 07 Jan 2026 16:47:42 +0300
+
 cpumem-applet (0.0.4) unstable; urgency=low
 
   * Initial Maemo Leste import
