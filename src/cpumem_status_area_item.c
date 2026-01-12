@@ -175,7 +175,7 @@ la_blit_memory_bars (const guchar level, CpumemAppletStatusAreaItemPrivate *priv
 
   x = 9;
   for (y = 1; y <= 13; y += 4) {
-    if (level >= ((y + 3) / 4)) {
+    if (level >= ((17 - y) / 4)) {
       g_debug("Blitting ON bar at y=%d", y);
       gdk_pixbuf_composite(priv->pixbuf_on, priv->pixbuf, x, y, CPUMEM_BOX_WIDTH, CPUMEM_BOX_HEIGHT, x, y, 1, 1, GDK_INTERP_NEAREST, 255);
     } else {
@@ -196,7 +196,7 @@ la_blit_cpu_bars (const guchar level, CpumemAppletStatusAreaItemPrivate *priv)
 
   x = 2;
   for (y = 1; y <= 13; y += 4) {
-    if (level >= ((y + 3) / 4)) {
+    if (level >= ((17 - y) / 4)) {
       if (priv->red == TRUE && y == 1) {
         g_debug("Blitting RED bar at y=%d", y);
         gdk_pixbuf_composite(priv->pixbuf_red, priv->pixbuf, x, y, CPUMEM_BOX_WIDTH, CPUMEM_BOX_HEIGHT, x, y, 1, 1, GDK_INTERP_NEAREST, 255);
